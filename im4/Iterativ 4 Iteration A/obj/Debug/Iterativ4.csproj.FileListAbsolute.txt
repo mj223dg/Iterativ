@@ -1,0 +1,3 @@
+C:\Users\mj223dg\Desktop\skola\Iterativ Lab 3\Iterativgöraom\bin\Debug\Iterativgöraom.exe.config
+C:\Users\mj223dg\Desktop\skola\Iterativ Lab 3\Iterativgöraom\obj\Debug\Iterativgöraom.exe
+C:\Users\mj223dg\Desktop\skola\Iterativ Lab 3\Iterativgöraom\obj\Debug\Iterativgöraom.pdb
