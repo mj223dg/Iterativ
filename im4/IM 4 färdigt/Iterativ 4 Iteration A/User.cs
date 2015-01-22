@@ -13,16 +13,20 @@ namespace Iterativgöraom
     private string _txtUser;
     private string _email;
 
+
+        /// <summary>
+        /// 
+        /// </summary>
     public string PassWord
     {
         get { return _txtPass; }
         set
         {
-        if(value.Length > 12)
-        {
-        throw new ArgumentOutOfRangeException();
-        }
-        _txtPass = value;
+            if(value.Length > 12)
+            {
+            throw new ArgumentOutOfRangeException();
+            }
+            _txtPass = value;
         }
     }
 

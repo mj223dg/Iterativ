@@ -15,14 +15,15 @@ namespace Iterativgöraom
             {
                 _password = password;
                 _userName = user;
-            //string returnline = ValidatePassword(passwords, users);
-            //Console.WriteLine(returnline);
             }
 
             public Validate()
             {
             }
 
+       /// <summary>
+       /// Sätter så att lösenordet inte inte kan vara längre än 12 tecken.
+       /// </summary>
             public string Password
             {
                 get { return _password; }
@@ -36,6 +37,9 @@ namespace Iterativgöraom
                 }
             }
 
+       /// <summary>
+       /// Sätter så att användarnamnet endast kan vara upp till 35 tecken.
+       /// </summary>
             public string Usename
             {
             get { return _userName; }
@@ -48,6 +52,10 @@ namespace Iterativgöraom
             _userName = value;
             }
             }
+
+       /// <summary>
+       /// Jämför lösenordet och användarnamnet.
+       /// </summary>
 
             public string ValidatePassword(User a)
             {
